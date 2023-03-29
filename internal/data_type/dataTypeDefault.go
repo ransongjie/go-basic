@@ -1,4 +1,4 @@
-package datatypeme
+package data_type
 
 import "fmt"
 

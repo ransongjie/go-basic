@@ -1,4 +1,4 @@
-package codelogicme
+package control
 
 import "fmt"
 
