@@ -4,6 +4,11 @@
 |data_type|Data type|
 |operator|Operator|
 |control|Control structure|
+|func|function|
+|obj|struct and interface|
+|err|error handling|
+|concurrent|concurrent|
+|generic|generic paradigm|
 # datatypeme
 [数据类型](https://blog.csdn.net/baidu_35805755/article/details/128961290)
 [数据类型转换](https://blog.csdn.net/baidu_35805755/article/details/128966050)

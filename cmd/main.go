@@ -1,16 +1,19 @@
 package main
 
-import "com.xcrj.gobasic/internal/datatypeme"
-import "com.xcrj.gobasic/internal/operatorme"
-import "com.xcrj.gobasic/internal/codelogicme"
+import "com.xcrj.gobasic/internal/data_type"
+import "com.xcrj.gobasic/internal/operator"
+import "com.xcrj.gobasic/internal/control"
+import "com.xcrj.gobasic/internal/generic"
 
 func main() {
-	datatypeme.RunDataType()
-	datatypeme.RunDataTypeConvert()
-	datatypeme.RunDataTypeLen()
-	datatypeme.RunDataTypeDefault()
+	data_type.RunDataType()
+	data_type.RunDataTypeConvert()
+	data_type.RunDataTypeLen()
+	data_type.RunDataTypeDefault()
 
-	operatorme.RunOperator()
+	operator.RunOperator()
 
-	codelogicme.RunCodeLogic()
+	control.RunCodeLogic()
+
+	generic.RunGeneric();
 }
