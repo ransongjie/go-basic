@@ -4,17 +4,17 @@
 |data_type|Data type|
 |operator|Operator|
 |control|Control structure|
-|func|function|
+|func|file function|
 |obj|struct and interface|
 |err|error handling|
 |generic|generic paradigm|
 |concurrent|concurrent|
-# datatypeme
+# data_type
 [数据类型](https://blog.csdn.net/baidu_35805755/article/details/128961290)
 [数据类型转换](https://blog.csdn.net/baidu_35805755/article/details/128966050)
-# operatorme
+# operator
 [运算符](https://blog.csdn.net/baidu_35805755/article/details/128993879)
-# codelogicme
+# control
 [代码逻辑](https://blog.csdn.net/baidu_35805755/article/details/129196215)
 # generic
 泛型
@@ -25,3 +25,9 @@
 - 泛型切片, map, chan
 - 泛型函数
 - 泛型结构体, 接口, 接收器, 没有泛型方法
+# concurrent
+- 任务, goroutine, MPG模型, chan, 锁, sync
+- 主线程执行完毕协程退出
+
+MPG: M(main 主线程) P(协程执行所需上下文) G(协程)
+- M0上G0被阻塞, 新开M1或从线程池中拿M1执行M0上G1...
