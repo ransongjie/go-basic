@@ -7,8 +7,8 @@
 |func|file function|
 |obj|struct and interface|
 |err|error handling|
-|generic|generic paradigm|
 |concurrent|concurrent|
+|generic|generic paradigm|
 # data_type
 [数据类型](https://blog.csdn.net/baidu_35805755/article/details/128961290)
 [数据类型转换](https://blog.csdn.net/baidu_35805755/article/details/128966050)
@@ -31,3 +31,9 @@
 
 MPG: M(main 主线程) P(协程执行所需上下文) G(协程)
 - M0上G0被阻塞, 新开M1或从线程池中拿M1执行M0上G1...
+
+# err
+异常
+- 程序退出，正常退出 return，异常退出 panic异常 未recover
+- 异常处理，return异常 err!=nil。defer recover异常。
+- 退出处理，defer 释放资源 异常处理

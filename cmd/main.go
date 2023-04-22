@@ -5,8 +5,9 @@ package main
 // import "com.xcrj.gobasic/internal/control"
 // import "com.xcrj.gobasic/internal/funcs"
 // import "com.xcrj.gobasic/internal/obj"
+import "com.xcrj.gobasic/internal/err"
+// import "com.xcrj.gobasic/internal/concurrent"
 // import "com.xcrj.gobasic/internal/generic"
-import "com.xcrj.gobasic/internal/concurrent"
 
 func main() {
 	// data_type.RunDataType()
@@ -28,6 +29,24 @@ func main() {
 	// obj.RunStruct2()
 	// obj.RunStruct3()
 
+	// err.RunErr0()
+	// err.RunErr1()
+	// err.RunErr2()
+	// err.RunErr3()
+	// err.RunErr4()
+	// err.RunErr5()
+	// err.RunErr6()
+	err.RunErr7()
+
+	// concurrent.RunChan1()
+	// concurrent.RunChan2()
+	// concurrent.RunChan3()
+	// concurrent.RunChan4()
+	// concurrent.RunChan5()
+	// concurrent.RunChan6()
+	// concurrent.RunChan7()
+	// concurrent.RunChan8()
+
 	// generic.RunGeneric00()
 	// generic.RunGeneric01()
 	// generic.RunGeneric02()
@@ -39,13 +58,4 @@ func main() {
 	// generic.RunTF1()
 	// generic.RunTF2()
 	// generic.RunTF3()
-
-	// concurrent.RunChan1()
-	// concurrent.RunChan2()
-	concurrent.RunChan3()
-	// concurrent.RunChan4()
-	// concurrent.RunChan5()
-	// concurrent.RunChan6()
-	// concurrent.RunChan7()
-	// concurrent.RunChan8()
 }
