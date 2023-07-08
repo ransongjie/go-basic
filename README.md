@@ -5,7 +5,7 @@
 |operator|Operator|
 |control|Control structure|
 |func|file function|
-|obj|struct and interface|
+|oop|struct and interface|
 |err|error handling|
 |concurrent|concurrent|
 |generic|generic paradigm|
